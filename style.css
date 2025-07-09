@@ -1,0 +1,70 @@
+html {
+    background: linear-gradient(360deg, rgba(15, 0, 22, 0.91), rgb(41, 1, 60), rgba(90, 1, 131, 0.877), rgba(100, 0, 146, 0.614), rgba(111, 0, 128, 0.082));
+
+}
+
+body {
+    display: flex;
+    min-height: 100vh;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+
+#main {
+    box-shadow: 2px 2px 16px rgba(192, 64, 227, 0.216);
+    padding: 10px;
+    border-radius: 50px;
+    width: 50%;
+    margin-top: 50px;
+}
+
+
+
+#textbox {
+    padding: 10px;
+    height: 30px;
+    width: 92%;
+    border: none;
+    border-radius: 30px;
+    background-color: rgba(255, 255, 255, 0.526);
+   margin-left: 20px;
+}
+
+#add-btn {
+    padding: 10px;
+    height: 50px;
+    width: 95%;
+    border: none;
+    border-radius: 30px;
+    background-color: rgba(10, 0, 17, 0.481);
+    color: white;
+    margin-left: 20px;
+    margin-top: 10px;
+
+}
+
+.items {
+    padding: 10px;
+    height: 30px;
+    width: 80%;
+    margin-left: 20px;
+    border: none;
+    border-radius: 30px;
+    background-color: rgba(255, 255, 255, 0.526);
+}
+
+
+
+.delbtn {
+
+    padding: 10px;
+    height: 50px;
+    margin-top: 18px;
+    width: 80px;
+    border: none;
+    border-radius: 30px;
+    background-color: rgba(10, 0, 17, 0.481);
+    color: white;
+
+}
